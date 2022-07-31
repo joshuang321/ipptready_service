@@ -52,7 +52,6 @@
 			else {
 				$response['Response'] = 'Successful';
 			}
-			curl_close($ch);
 		}
 		catch (PDOException $e) {
 			$response['Response'] = 'Failure';
